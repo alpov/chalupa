@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -193,6 +193,20 @@
 <text x="44.45" y="19.685" size="1.27" layer="100" font="vector" ratio="12" rot="R90">NTC</text>
 <text x="41.5925" y="56.515" size="1.27" layer="100" font="vector" ratio="12">SET</text>
 <text x="40.9575" y="45.085" size="1.27" layer="100" font="vector" ratio="12">ATTN</text>
+<dimension x1="0" y1="1.27" x2="11.43" y2="1.27" x3="5.715" y3="-5.08" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="1.27" x2="59.69" y2="1.27" x3="29.845" y3="-9.525" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="68.58" y1="82.55" x2="68.58" y2="72.39" x3="74.93" y3="77.47" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="68.58" y1="82.55" x2="68.58" y2="39.37" x3="80.645" y3="60.96" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="11.43" y1="-5.08" x2="59.69" y2="-5.08" x3="35.56" y3="-5.08" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="74.93" y1="72.39" x2="74.93" y2="39.37" x3="74.93" y3="55.88" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="69.85" y1="1.27" x2="59.69" y2="-5.08" x3="64.77" y3="-5.08" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="68.58" y1="0" x2="74.93" y2="39.37" x3="74.93" y3="19.685" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="0" y1="1.27" x2="16.51" y2="4.445" x3="8.255" y3="-16.51" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="68.58" y1="82.55" x2="65.405" y2="62.23" x3="87.63" y3="72.39" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="68.58" y1="82.55" x2="65.405" y2="44.45" x3="92.71" y3="63.5" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="43.18" y1="52.705" x2="0" y2="52.705" x3="21.59" y3="87.63" textsize="1.778" layer="47"/>
+<dimension x1="43.18" y1="52.705" x2="43.18" y2="82.55" x3="-6.985" y3="67.6275" textsize="1.778" layer="47"/>
+<dimension x1="43.18" y1="47.625" x2="43.18" y2="82.55" x3="-12.7" y3="65.0875" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="rcl">

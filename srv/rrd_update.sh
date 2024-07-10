@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-    chdir('/srv/www/sos.alpov.net/ch');
+    chdir('/srv/ch');
 
     $db = new PDO('sqlite:'.__DIR__.'/chalupa.db') or die("cannot open database"); 
     //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
@@ -35,3 +35,4 @@
 
     system('./rrd_graph.sh');
 ?>
+
